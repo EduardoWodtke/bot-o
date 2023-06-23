@@ -26,7 +26,7 @@ import ShareVariant from 'vue-material-design-icons/ShareVariant.vue'
   <button>
     <slot>
       <m-button class="secundario" @click="emit('adicionarAoCarrinho', props.livro)">
-        <cart-plus />
+        <android-icon fillColor="#FF0000"  />
       </m-button>
       <m-button class="sucesso"> <share-variant /> </m-button>
     </slot>
