@@ -12,6 +12,7 @@ import ShareVariant from 'vue-material-design-icons/ShareVariant.vue'
     </slot>
   </button>
   <br />
+  <br/>
   <button>
     <slot>
       <m-button @click="emit('adicionarAoCarrinho', props.livro)">
@@ -20,7 +21,8 @@ import ShareVariant from 'vue-material-design-icons/ShareVariant.vue'
       <m-button> <share-variant /> </m-button>
     </slot>
   </button>
-  <br />
+  <br/>
+  <br/>
   <button>
     <slot>
       <m-button class="secundario" @click="emit('adicionarAoCarrinho', props.livro)">
